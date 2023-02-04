@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Fenix Spa</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+      <a href="index.html" class="navbar-brand"><img class="logo" src="img/fenix.gif" alt="logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active color-texto" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link color-texto" href="#">Red</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link color-texto" href="./tienda.html">Productos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle color-texto" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Mas...
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-warning btn-sm" type="submit">Search</button>
+          <div class="dropdown mt-2">
+            <i class="far fa-bell ml-3 notification dropdown-toggle" data-bs-toggle="dropdown"
+              aria-expanded="false"></i>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="#">Notificación 1</a></li>
+              <li><a class="dropdown-item" href="#">Notificación 2</a></li>
+              <li><a class="dropdown-item" href="#">Notificación 3</a></li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <img src="./icon/user.png" alt="" class="rounded-circle dropdown-toggle userIco-32"
+              data-bs-toggle="dropdown" aria-expanded="false">
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="#">Perfil</a></li>
+              <li><a class="dropdown-item" href="#">Configuración</a></li>
+              <li><a class="dropdown-item" href="./login.html">Salir</a></li>
+            </ul>
+          </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-lg-3">
+        <div class="left-column">
+          <div class="card card-left1 mb-4 form_wrapper">
+            <img src="img/photo-1455448972184-de647495d428.jpg" alt="" class="card-img-top img-fluid">
+            <div class="card-body text-center ">
+              <img src="./icon/user.png" alt="img" class="rounded-circle mt-n5 userIco-120">
+              <h5 class="card-title">Javier Motoya</h5>
+              <p class="card-text text-justify mb-2">Desearía ser un poco más alto, desearía ser un jugador de
+                baloncesto, desearía tener un
+                niña… también.</p>
+              <ul class="list-unstyled nav justify-content-center">
+                <li class="nav-item color-texto">Amigos/ <br> <strong>12M</strong></li>
+                <li class="nav-item color-texto">Enemigos <br> <strong>1</strong></li>
+              </ul>
+            </div>
+          </div>
+          <div class="card card-left2 mb-4 form_wrapper">
+            <div class="card-body">
+              <h5 class="mb-3 card-title">Acerca de mi <small><a href="#" class="ml-1"><i
+                      class="far fa-edit m-3"></i></a></small></h5>
+              <p class="card-text"> <i class="fas fa-calendar-week mr-2"></i> Viaje a <a href="#"
+                  class="text-decoration-none">Brasil</a></p>
+              <p class="card-text"> <i class="fas fa-user-friends mr-2"></i> Hazte amigo de <a href="#"
+                  class="text-decoration-none">Sebastian</a></p>
+              <p class="card-text"> <i class="far fa-building mr-2"></i> Trabajo en <a href="#"
+                  class="text-decoration-none">Cencosud</a></p>
+              <p class="card-text"> <i class="fas fa-home mr-2"></i> Vivo en <a href="#"
+                  class="text-decoration-none">Valparaiso</a></p>
+              <p class="card-text"> <i class="fas fa-map-marker mr-2"></i> Vengo de <a href="#"
+                  class="text-decoration-none">Santiago</a></p>
+            </div>
+          </div>
+          <div class="card card-left3 mb-4 form_wrapper">
+            <div class="card-body">
+              <h5 class="card-title">Fotos<small class="ml-2"><a href="#"><i class="far fa-edit m-3"></i></a></small>
+              </h5>
+              <div class="row">
+                <div class="col-6 p-1">
+                  <a href="./img/testimonials-3.jpg"><img src="./img/testimonials-3.jpg" alt="img"
+                      class="img-fluid my-2"></a>
+                  <a href="./img/testimonials-2.jpg"><img src="./img/testimonials-2.jpg" alt="img"
+                      class="img-fluid my-2"></a>
+                  <a href="./img/testimonials-1.jpg"><img src="./img/testimonials-1.jpg" alt="img"
+                      class="img-fluid my-2"></a>
+                </div>
+                <div class="col-6 p-1">
+                  <a href="./img/testimonials-2.jpg"><img src="./img/testimonials-2.jpg" alt="img"
+                      class="img-fluid my-2"></a>
+                  <a href="./img/testimonials-1.jpg"><img src="./img/testimonials-1.jpg" alt="img"
+                      class="img-fluid my-2"></a>
+                  <a href="./img/testimonials-3.jpg"><img src="./img/testimonials-3.jpg" alt="img"
+                      class="img-fluid my-2"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6">
+        <div class="middle-column">
+          <div class="card form_wrapper2">
+            <div class="card-header bg-transparent">
+              <form class="form-inline">
+                <div class="input-group w-100">
+                  <input type="text" name="message" id="message" placeholder="Que piensas..."
+                    class="form-control form-control-md">
+                </div>
+              </form>
+            </div>
+            <div class="card-body">
+              <div>
+                <img src="img/testimonials-1.jpg" alt="img" class="rounded-circle mr-3 userIco-55">
+                <div class="mb-3">
+                  <h5>Clara Soto</h5>
+                  <p class="card-text text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas y
+                    archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año
+                    1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería
+                    de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No sólo
+                    sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos electrónicos,
+                    quedando esencialmente igual al original. Fue popularizado en los 60s con la creación de las hojas
+                    "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más recientemente con software de
+                    autoedición, como por ejemplo Aldus PageMaker, el cual incluye versiones de Lorem Ipsum</p>
+                  <div class="row no-gutters mb-3">
+                    <div class="col-6 p-1 text-center">
+                      <img src="img/logo.png" alt="" class="img-fluid mb-2">
+                      <img src="img/bg-showcase-3.jpg" alt="" class="img-fluid">
+                    </div>
+                    <div class="col-6 p-1 text-center">
+                      <img src="img/bg-showcase-3.jpg" alt="" class="img-fluid">
+                      <img src="img/logo.png" alt="" class="img-fluid mb-2">
+                    </div>
+                  </div>
+                  <div class="mb-3">
+                    <img src="img/testimonials-2.jpg" alt="img" class="rounded-circle mr-2 userIco-45">
+                    <div>
+                      <h5>Alberto Jaramillo</h5>
+                      <p class="card-text text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas
+                        y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el
+                        año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una
+                        galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No
+                        sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos
+                        electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la
+                        creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más
+                        recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye
+                        versiones de Lorem Ipsum.</p>
+                    </div>
+                  </div>
+                  <div>
+                    <img src="img/testimonials-3.jpg" alt="img" class="rounded-circle mr-2 userIco-45">
+                    <div>
+                      <p class="card-text text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas
+                        y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el
+                        año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una
+                        galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. No
+                        sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno en documentos
+                        electrónicos, quedando esencialmente igual al original. Fue popularizado en los 60s con la
+                        creación de las hojas "Letraset", las cuales contenian pasajes de Lorem Ipsum, y más
+                        recientemente con software de autoedición, como por ejemplo Aldus PageMaker, el cual incluye
+                        versiones de Lorem Ipsum.</p>
+                    </div>
+                  </div>
+                </div>
+                <small>5min</small>
+              </div>
+            </div>
+            <hr>
+            <div class="card-body">
+              <div>
+                <img src="img/testimonials-1.jpg" alt="img" class="rounded-circle mr-3 userIco-55">
+                <div>
+                  <h5>Clara Soto</h5>
+                  <p class="text-justify">Lorem Ipsum es simplemente el texto de relleno de las imprentas
+                    y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el
+                    año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una
+                    galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen..</p>
+                </div>
+                <small>14 min</small>
+              </div>
+            </div>
+            <hr>
+            <div class="card-body">
+              <div>
+
+                <img src="img/testimonials-3.jpg" alt="img" class="rounded-circle mr-3 userIco-55">
+                <div>
+                  <h5>Maria Valenzuela</h5>
+                  <p class="text-justify">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta
+                    felis euismod semper. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
+                    Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.</p>
+                  <a href="img/mid5.jpg"><img src="img/mid5.jpg" alt="" class="img-fluid  img-thumbnail"> </a>
+                </div>
+                <small>10 min</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br> <br> <br><br> <br> <br>
+      <div class="col-12 col-lg-3">
+        <div class="right-column">
+          <div class="card mb-4 card form_wrapper">
+            <div class="card-body">
+              <h6 class="card-title">Patrocinio</h6>
+              <img src="img/agencia.png" alt="card-img" class="card-img mb-3">
+              <p class="card-text text-justify"> <span class="h6">Puede que sea el momento de visitar Islandia.</span>
+                Islandia es tan relajante, y todo se ve genial aquí. Además, escuchamos que la gente es bastante
+                agradable. ¿Que estas esperando?
+                waiting for?</p>
+              <a href="#" class="btn btn-outline-info card-link btn-sm">Comprar tu boleto ya!</a>
+            </div>
+          </div>
+          <div class="card  mb-4 card form_wrapper ">
+            <div class="card-body">
+              <h6 class="card-title ">Me gusta. <a href="#" class="ml-1"><small>Ver todo</small> </a> </h6>
+              <div class="row no-gutters d-none d-lg-flex">
+                <div class="col-6 p-1">
+                  <img src="img/testimonials-2.jpg" alt="img" class="rounded-circle mb-4 userIco-80">
+                  <img src="img/testimonials-1.jpg" alt="img" class="rounded-circle userIco-80">
+                </div>
+                <div class="col-6 p-1 text-left">
+                  <h6>Edgardo Peña</h6>
+                  <a href="#" class="btn btn-outline-info btn-sm mb-3"><i class="fas fa-user-friends"></i>Seguir </a>
+                  <h6>Macarena Jaramillo</h6>
+                  <a href="#" class="btn btn-outline-info  btn-sm"><i class="fas fa-user-friends"></i>Seguir </a>
+                </div>
+              </div>
+            </div>
+            <div class="card-footer">
+              <p class="lead" style="font-size:18px;">Lo mejor es viajar comodamente y mis zapatillas Fenix siempre
+                conmigo.</p>
+            </div>
+          </div>
+          <div class="card card form_wrapper">
+            <div class="card-body">
+              <p>&copy; 2018 Bootstrap
+                <a href="#">About</a>
+                <a href="#">Help</a>
+                <a href="#">Terms</a>
+                <a href="#">Privacy</a>
+                <a href="#">Cookies</a>
+                <a href="#">Ads </a>
+                <a href="#">Info</a>
+                <a href="#">Brand</a>
+                <a href="#">Blog</a>
+                <a href="#">Status</a>
+                <a href="#">Apps</a>
+                <a href="#">Jobs</a>
+                <a href="#">Advertise</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"></script>
+  </div>
+</body>
+
+</html>

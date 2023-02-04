@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>Registro</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+</head>
+
+<body>
+	<div class="container">
+		<div class="card borderLight backColor form_wrapper" style="width: 25rem;">
+			<div class="card-body">
+				<div class="title_container">
+					<h2 class="mb-20">Datos para despacho</h2>
+				</div>
+				<form method="POST" class="my-login-validation" novalidate="">
+					<div class="form-group input-group-sm mb-3">
+						<label for="email">Nombre Receptor</label>
+						<input id="email" type="email" class="form-control" name="email" value="" required autofocus>
+						<div class="invalid-feedback">
+							Correo invalido
+						</div>
+					</div>
+
+					<div class="form-group input-group-sm mb-3">
+						<label for="password">Teléfono receptor
+						</label>
+						<input id="password" type="text" class="form-control" name="password" required data-eye>
+					</div>
+
+					<div class="form-group input-group-sm mb-3">
+						<label for="password">Dirección
+						</label>
+						<input id="repassword" type="text" class="form-control" name="password" required data-eye>
+					</div>
+
+
+					<div class="form-group">
+						<button type="button" class="btn btn-primary" data-bs-toggle="modal"
+							data-bs-target="#exampleModal" onClick="closeModal()">
+							Confirmar despacho
+						</button>
+					</div>
+				</form>
+			</div>
+		</div>
+		<p class="foo">Copyright &copy; 2017 &mdash; Fenix Spa</p>
+	</div>
+
+
+
+
+</body>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body">
+			<h1>Su compra ya está en camino</h1>
+				<img src="https://www.kipling.cl/media/wysiwyg/envio_opt_2.png" alt="">
+			</div>
+		</div>
+	</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+	integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+	crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+	integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+	crossorigin="anonymous"></script>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="./js/logica.js"></script>
+
+</html>
